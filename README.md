@@ -4,12 +4,65 @@
 
 A design pattern is not invented - it's discovered as a repeated solution to a commonly recurring problem.
 
+Design patterns represent **the best practices** used by experienced object-oriented software developers. **Design patterns are solutions to general problems** that software developers faced during software development. These solutions were obtained by trial and error by numerous software developers over quite a substantial period of time.
+
 ## 网址
 
 - [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 - [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
+- [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)这个网站，列了许多Design Patter，有一些我没有见过的，例如Service Locator Pattern，例子也相对简单，可以学习一下
+
+## What is Gang of Four (GOF)?
+
+In 1994, four authors **Erich Gamma**, **Richard Helm**, **Ralph Johnson** and **John Vlissides** published a book titled **Design Patterns - Elements of Reusable Object-Oriented Software** which initiated the concept of Design Pattern in Software development.
+
+These authors are collectively known as **Gang of Four (GOF)**. According to these authors design patterns are primarily based on the following principles of object orientated design.
+
+- Program to an interface not an implementation
+- Favor object composition over inheritance
+
+## Types of Design Patterns
+
+As per the design pattern reference book **Design Patterns - Elements of Reusable Object-Oriented Software** , there are 23 design patterns which can be classified in three categories: **Creational**, **Structural** and **Behavioral patterns**. We'll also discuss another category of design pattern: **J2EE design patterns**.
+
+> as per 按照；根据
+
+| 序号 | Pattern                 | Description                                                  |
+| ---- | ----------------------- | ------------------------------------------------------------ |
+| 1    | **Creational Patterns** | These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new operator. This gives program more flexibility in deciding which objects need to be created for a given use case. |
+| 2    | **Structural Patterns** | These design patterns concern class and object composition. Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities. |
+| 3    | **Behavioral Patterns** | These design patterns are specifically concerned with communication between objects. |
+| 4    | **J2EE Patterns**       | These design patterns are specifically concerned with the presentation tier. These patterns are identified by Sun Java Center. |
+
+分类如下：
+
+- creational pattern
+  - Factory Pattern
+  - Abstract Factory Pattern
+  - Singleton Pattern
+  - Builder Pattern，由简单对象组合成复杂对象
+  - Prototype Pattern，与Sigleton是相对的，是多个对象，通过复制降低执行成本
+- structural pattern
+  - Bridge Pattern
+  - Filter Pattern
+  - Composite Pattern，树状结构
+  - Decorator Pattern，就是一层层的外包装
+  - Facade Pattern，画繁为简
+  - Flyweight Pattern，减少对象创建，提高运行效率，与Singleton和Prototype有某些方面是相同的，Singleton是减少了对象实例的数量为1个，而Prototype是通过clone降低了执行的开销，Flyweight是通过尽量减少实例数量，来提高执行效率
+  - Proxy Pattern
+- behavioral pattern
+  - Chain of Responsibility Pattern，如果自己解决不了，那就交给别人
+  - Command Pattern，不理解
+  - Interpreter Pattern，不理解
+  - Iterator Pattern，不明白数据结构的情况下，能够进行遍历
+  - Mediator Pattern，把两个类之间进行沟通的部分，分离到另一个类中
+  - Memento Pattern，把自己的当前状态记录下来，以便后来的时间再恢复
+  - Observer Pattern，我感觉就是发布者和订阅者的样子
+  - State Pattern
+  - Strategy Pattern
+  - Template Pattern
 
 ## 关于《设计模式》
 
