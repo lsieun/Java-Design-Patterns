@@ -63,6 +63,7 @@ As per the design pattern reference book **Design Patterns - Elements of Reusabl
   - State Pattern
   - Strategy Pattern
   - Template Pattern
+  - Visitor Pattern
 
 ## 关于《设计模式》
 
